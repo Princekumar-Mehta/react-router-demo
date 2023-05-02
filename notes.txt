@@ -1,0 +1,15 @@
+npm install react-router-dom@6
+
+wrap App with BrowsrRouter in index.js or BrowserRouter as Router
+
+import { Routes, Route } from "react-router-dom"; in App.js
+
+to give style dynamically according isActive use NavLinks
+
+while using authentication wrap everything inside AuthProvider in App.js
+
+useNavigate for navigation
+
+<Navigate to="/profile" /> is same is <Profile/>
+
+use Routes instead of Switch 
